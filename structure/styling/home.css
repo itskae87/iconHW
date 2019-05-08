@@ -1,0 +1,27 @@
+i:hover {
+    color:yellow !important;
+    transform: rotate(180deg);
+}
+
+nav a:hover {
+    color: red;
+    font-size: 30px;
+}
+
+@media (min-width: 992px) {
+    .desktop {
+        display: inline-block;
+    }
+    .mobile {
+        display: none;
+    }
+    }
+
+    @media (max-width: 991px) {
+        .desktop {
+            display: none;
+        }
+        .mobile {
+            display: inline-block;
+        }
+    }
